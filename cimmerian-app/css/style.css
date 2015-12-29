@@ -6,6 +6,7 @@ html {
   background-color: #2E3532;
   background-image: url('../assets/img/cimmerian.jpg');
   background-size:cover;
+  color:#fff;
 }
 
 img {
@@ -20,4 +21,14 @@ img {
   width:300px;
   text-align:center;
   margin-left:-150px;
+}
+
+.wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.text .col {
+  width:calc(50% - 40px);
+  margin: 0 10px;
 }
