@@ -1,0 +1,23 @@
+body,
+html {
+  height:100%;
+  margin:0;
+  padding:0;
+  background-color: #2E3532;
+  background-image: url('../assets/img/cimmerian.jpg');
+  background-size:cover;
+}
+
+img {
+  max-width:100%;
+  height:auto;
+}
+
+#logo {
+  position:absolute;
+  top:200px;
+  left:50%;
+  width:300px;
+  text-align:center;
+  margin-left:-150px;
+}
