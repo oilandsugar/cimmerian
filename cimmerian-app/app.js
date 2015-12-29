@@ -15,6 +15,10 @@ angular.module('cimmerian-app').config(function($stateProvider, $urlRouterProvid
       url: "/about",
       templateUrl: "cimmerian-app/partials/about.html"
     })
+    .state('contact', {
+      url: "/contact",
+      templateUrl: "cimmerian-app/partials/contact.html"
+    })
     .state('stories', {
       url: "/stories",
       templateUrl: "cimmerian-app/partials/stories.html",
