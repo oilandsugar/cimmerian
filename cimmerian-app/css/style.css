@@ -31,4 +31,17 @@ img {
 .text .col {
   width:calc(50% - 40px);
   margin: 0 10px;
+  float:left;
+}
+
+hr {
+  height:1px;
+  border:0;
+  background: #fff;
+  margin:0 auto;
+  display:block;
+}
+
+hr.small {
+  width:150px;
 }
