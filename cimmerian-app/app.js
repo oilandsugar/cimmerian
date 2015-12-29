@@ -1,4 +1,4 @@
-angular.module('cimmerian-app', ['ui.router'])
+angular.module('cimmerian-app', ['ui.router']);
 
 angular.module('cimmerian-app').config(function($stateProvider, $urlRouterProvider) {
   //
@@ -32,6 +32,6 @@ angular.module('cimmerian-app').config(function($stateProvider, $urlRouterProvid
     })
     .state('admin', {
       url: "/admin",
-      templateUrl: ""
+      templateUrl: "cimmerian-app/partials/about.html"
     });
 });
