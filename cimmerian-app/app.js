@@ -9,15 +9,15 @@ angular.module('cimmerian-app').config(function($stateProvider, $urlRouterProvid
   $stateProvider
     .state('home', {
       url: "/",
-      templateUrl: "partials/home.html"
+      templateUrl: "cimmerian-app/partials/home.html"
     })
     .state('about', {
       url: "/about",
-      templateUrl: "partials/about.html"
+      templateUrl: "cimmerian-app/partials/about.html"
     })
     .state('stories', {
       url: "/stories",
-      templateUrl: "partials/stories.html",
+      templateUrl: "cimmerian-app/partials/stories.html",
       controller: function($scope) {
         $scope.stories = [
           {
