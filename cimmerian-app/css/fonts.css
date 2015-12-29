@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'infinitumregular';
+    src: url('../assets/fonts/infinitum-regular-webfont.eot');
+    src: url('../assets/fonts/infinitum-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/infinitum-regular-webfont.woff2') format('woff2'),
+         url('../assets/fonts/infinitum-regular-webfont.woff') format('woff'),
+         url('../assets/fonts/infinitum-regular-webfont.ttf') format('truetype'),
+         url('../assets/fonts/infinitum-regular-webfont.svg#infinitumregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
