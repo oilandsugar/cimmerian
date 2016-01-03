@@ -1,4 +1,4 @@
-angular.module('cimmerian-app', ['ui.router']);
+angular.module('cimmerian-app', ['ui.router', 'stories']);
 
 angular.module('cimmerian-app').config(function($stateProvider, $urlRouterProvider) {
   //
