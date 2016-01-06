@@ -34,6 +34,14 @@ angular.module('cimmerian-app').config(function($stateProvider, $urlRouterProvid
         ];
       }
     })
+    .state('stories.single', {
+        url: "/stories/:storyId",
+        templateUrl: 'contacts.single.html',
+        controller: function ($stateParams) {
+            // If we got here from a url of /stories/42
+            expect($stateParams).toBe({storyId: "42"});
+        }
+    })
     .state('admin', {
       url: "/admin",
       templateUrl: "cimmerian-app/partials/about.html"
