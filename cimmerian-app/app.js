@@ -1,6 +1,6 @@
 angular.module('cimmerian-app', ['ui.router']);
 
-angular.module('cimmerian-app').config(function($stateProvider, $urlRouterProvider, $locationProvider) {
+angular.module('cimmerian-app').config(function($stateProvider, $urlRouterProvider) {
   //
   // For any unmatched url, redirect to /state1
   $urlRouterProvider.otherwise("/");
@@ -38,7 +38,4 @@ angular.module('cimmerian-app').config(function($stateProvider, $urlRouterProvid
       url: "/admin",
       templateUrl: "cimmerian-app/partials/about.html"
     });
-
-    // use the HTML5 History API
-    $locationProvider.html5Mode(true);
 });
