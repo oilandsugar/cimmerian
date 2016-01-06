@@ -3,7 +3,7 @@
 
     angular
         .module('cimmerian-app')
-        .controller("MainController", ['$rootScope', mainCtrlFunc]);
+        .controller("MainController", ['$rootScope', '$stateParams', mainCtrlFunc]);
 
     function mainCtrlFunc($rootScope, $stateParams){
       var vm = this;
