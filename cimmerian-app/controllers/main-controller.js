@@ -3,9 +3,9 @@
 
     angular
         .module('cimmerian-app')
-        .controller("MainController", ['$rootScope', '$stateParams', mainCtrlFunc]);
+        .controller("MainController", ['$rootScope', '$stateParams', 'stories', mainCtrlFunc]);
 
-    function mainCtrlFunc($rootScope, $stateParams){
+    function mainCtrlFunc($rootScope, $stateParams, stories){
       var vm = this;
       vm.title = 'Cimmerian';
 
