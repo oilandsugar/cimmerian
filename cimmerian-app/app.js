@@ -21,25 +21,12 @@ angular.module('cimmerian-app').config(function($stateProvider, $urlRouterProvid
     })
     .state('stories', {
       url: "/stories",
-      templateUrl: "cimmerian-app/partials/stories.html",
-      controller: function($scope) {
-        $scope.stories = [
-          {
-            name: 'projet 1',
-            date: '2015 01 02',
-    	      duration: "25 minutes",
-    	      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In gravida libero turpis, nec mattis odio imperdiet at. Maecenas venenatis tincidunt lacinia. Phasellus finibus augue metus, vel lobortis dui rutrum vitae.',
-    	      type: 'video'
-          }
-        ];
-      }
+      templateUrl: "cimmerian-app/partials/stories.html"
     })
     .state('stories.single', {
         url: "/stories/:storyId",
         templateUrl: 'contacts.single.html',
         controller: function ($stateParams) {
-            // If we got here from a url of /stories/42
-            expect($stateParams).toBe({storyId: "42"});
         }
     })
     .state('admin', {
