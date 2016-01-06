@@ -24,10 +24,8 @@ angular.module('cimmerian-app').config(function($stateProvider, $urlRouterProvid
       templateUrl: "cimmerian-app/partials/stories.html"
     })
     .state('stories.single', {
-        url: "/stories/{storyId}",
-        templateUrl: 'stories.single.html',
-        controller: function ($stateParams) {
-        }
+      url: "/stories/{storyId}",
+      templateUrl: 'stories.single.html'
     })
     .state('admin', {
       url: "/admin",
