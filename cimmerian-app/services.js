@@ -35,17 +35,17 @@
             btsPhotos: [
               {
                 id: 1
-                url: '/urltofile',
+                url: '../cimmerian-app/assets/img/stories/story_1_bts_1.jpg',
                 caption: 'caption'
               },
               {
                 id: 2
-                url: '/urltofile',
+                url: '../cimmerian-app/assets/img/stories/story_1_bts_2.jpg',
                 caption: 'caption'
               },
               {
                 id: 3
-                url: '/urltofile',
+                url: '../cimmerian-app/assets/img/stories/story_1_bts_3.jpg',
                 caption: 'caption'
               }
             ]
