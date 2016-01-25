@@ -90,3 +90,16 @@ hr.small {
   width: 20px;
   height: 20px;
 }
+
+.timeline .event i {
+  color: #000;
+}
+
+.timeline .event .event-title {
+  margin-bottom: 0;
+}
+
+.timeline .event .event-title a {
+  color: #fff;
+  text-decoration: none;
+}
