@@ -74,6 +74,7 @@ hr.small {
   left:0;
   right:0;
   top: 0;
+  z-index: 100;
 }
 
 .timeline {
@@ -136,12 +137,17 @@ hr.small {
   width: 100%;
 }
 
+.single-journal .title h1,
 .single-journal .title {
-  margin: -10px 0 20px 0;
+  margin: -15px 0 20px 0;
 
 }
 
 .single-journal .time {
   opacity: 0.3;
   text-align:center;
+}
+
+.single-journal .text-content {
+  padding-top:40px;
 }
