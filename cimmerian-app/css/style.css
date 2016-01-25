@@ -124,11 +124,21 @@ hr.small {
   margin-top: 300px;
   position: absolute;
   left: 0;
+  width: 100%;
 }
 
 .single-journal {
   max-width: 800px;
   margin: 0 auto;
+}
+
+.single-journal .cover-photo {
+  width: 100%;
+}
+
+.single-journal .title {
+  margin: -10px 0 20px 0;
+
 }
 
 .single-journal .time {
