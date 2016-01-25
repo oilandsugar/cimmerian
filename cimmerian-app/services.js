@@ -17,34 +17,34 @@
             video: '/urltovideo',
             photos: [
               {
-                id: 1
+                id: 1,
                 url: '/urltofile',
                 caption: 'caption'
               },
               {
-                id: 2
+                id: 2,
                 url: '/urltofile',
                 caption: 'caption'
               },
               {
-                id: 3
+                id: 3,
                 url: '/urltofile',
                 caption: 'caption'
               }
             ],
             btsPhotos: [
               {
-                id: 1
+                id: 1,
                 url: '../cimmerian-app/assets/img/stories/story_1_bts_1.jpg',
                 caption: 'caption'
               },
               {
-                id: 2
+                id: 2,
                 url: '../cimmerian-app/assets/img/stories/story_1_bts_2.jpg',
                 caption: 'caption'
               },
               {
-                id: 3
+                id: 3,
                 url: '../cimmerian-app/assets/img/stories/story_1_bts_3.jpg',
                 caption: 'caption'
               }
