@@ -23,6 +23,10 @@ angular.module('cimmerian-app').config(function($stateProvider, $urlRouterProvid
       url: "/stories",
       templateUrl: "cimmerian-app/partials/stories.html"
     })
+    .state('journal', {
+      url: "/journal",
+      templateUrl: "cimmerian-app/partials/journal.html"
+    })
     .state('single story test', {
       url: "/singlestory",
       templateUrl: "cimmerian-app/partials/stories.single.html"
