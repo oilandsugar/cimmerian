@@ -42,14 +42,14 @@ a:hover {
 
 .home-content {
   max-width: 480px;
-  margin:40px auto 0 auto;
+  margin:100px auto 0 auto;
   text-align:center;
 }
 
 .home-content .desc {
   font-size:24px;
-  margin:30px 0;
-  line-height:1.5em;
+  margin:60px 0;
+  line-height:1.4em;
 }
 
 .home-content .logo {
@@ -67,12 +67,21 @@ a:hover {
 }
 
 .back-line {
-  border: 1px dotted #9C9C9C;
+  border: 1px dashed #9C9C9C;
 }
 
 .wrap {
   max-width: 800px;
   margin: 0 auto;
+}
+
+.social-icons {
+  text-align:center;
+  font-size:2em;
+}
+
+.social {
+  margin:0 10px;
 }
 
 .title {
