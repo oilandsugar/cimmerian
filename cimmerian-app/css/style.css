@@ -1,5 +1,8 @@
-body,
 html {
+  height:100%;
+}
+
+body {
   min-height:100%;
   margin:0;
   padding:0;
@@ -59,6 +62,9 @@ a:hover {
 
 .support-patreon {
   text-align:left;
+  width: 200px;
+padding-left: 65px;
+line-height: 1.2em;
 }
 
 .timeline {
@@ -81,7 +87,7 @@ a:hover {
 }
 
 .social {
-  margin:0 10px;
+  margin:0 5px;
 }
 
 .title {
